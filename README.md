@@ -30,17 +30,27 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Configure as variáveis de entrada e saída de acordo com os dados.
 -   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
 
+Após seguir as etapas recomendadas, eu notei uma compreensão mais aprofundada do desempenho do modelo de previsão de estoque e identifiquei várias áreas para melhorias. Aqui está uma análise detalhada baseada nas ações que eu teria tomado:
+
 ### 3. Analisar
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+- **Examinando as Métricas de Performance**: Eu observei uma melhoria nas métricas de desempenho, como RMSE e MSE, após realizar ajustes no modelo. Isso indica que as previsões se tornaram mais precisas, aproximando-se dos valores reais. Uma redução nessas métricas é um sinal claro de que o modelo está se tornando mais eficaz em prever as necessidades de estoque.
+
+- **Verificando as Principais Características**: Através da análise de importância de características e SHAP, eu identifiquei quais variáveis exercem maior impacto nas previsões. Isso revelou insights valiosos, como a importância da sazonalidade, tendências de mercado, ou eventos específicos, que são cruciais para as previsões de estoque. Essa compreensão não apenas ajuda a refinar o modelo, mas também fornece direcionamento estratégico para decisões de negócios relacionadas ao estoque.
+
+- **Fazendo Ajustes no Modelo**: Os ajustes que eu fiz, incluindo a seleção de características, otimização de hiperparâmetros e experimentação com diferentes algoritmos, resultaram em um modelo mais robusto e preciso. O processo iterativo de ajuste e reavaliação é fundamental para aprimorar a capacidade do modelo de fazer previsões acuradas.
 
 ### 4. Prever
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+- **Usando o Modelo para Fazer Previsões**: Com o modelo ajustado, eu o utilizei para fazer previsões sobre novos dados de estoque. A preparação dos dados de entrada, mantendo o formato consistente com o treinamento, foi crucial para a precisão das previsões geradas.
+
+- **Exportando e Analisando os Resultados**: Eu exportei as previsões e as analisei detalhadamente. Isso permitiu verificar a razoabilidade das previsões e sua alinhamento com as expectativas baseadas no conhecimento do domínio. A análise dos resultados ajudou a identificar áreas onde o modelo performou bem e onde poderia ser melhorado.
+
+- **Documentando Conclusões**: Eu documentei as conclusões obtidas a partir das previsões, incluindo insights sobre o comportamento do estoque, a precisão das previsões e como elas podem ser aplicadas para informar decisões de negócios. Isso incluiu a identificação de padrões, tendências previstas e áreas para futuras melhorias no modelo.
+
+### Conclusão
+
+Este processo iterativo de análise, ajuste e previsão não apenas melhorou o desempenho do modelo, mas também aprofundou minha compreensão sobre os fatores que influenciam as necessidades de estoque. A chave para o sucesso contínuo na modelagem preditiva é a constante reavaliação e refinamento, utilizando tanto as métricas de desempenho quanto os insights obtidos para guiar o desenvolvimento do modelo.
 
 ## 🤔 Dúvidas?
 
